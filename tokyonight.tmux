@@ -81,8 +81,8 @@ status_widgets=$(get "@tokyonight_widgets")
 time_format=$(get "@tokyonight_time_format" "%R")
 date_format=$(get "@tokyonight_date_format" "%d/%m/%Y")
 
-set "status-right" "#[fg=$tokyonight_white,bg=$tokyonight_black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$tokyonight_visual_grey,bg=$tokyonight_black]#[fg=$tokyonight_visual_grey,bg=$tokyonight_visual_grey]#[fg=$tokyonight_white, bg=$tokyonight_visual_grey]${status_widgets} #[fg=$tokyonight_green,bg=$tokyonight_visual_grey,nobold,nounderscore,noitalics]#[fg=$tokyonight_black,bg=$tokyonight_green,bold] #h #[fg=$tokyonight_yellow, bg=$tokyonight_green]#[fg=$tokyonight_red,bg=$tokyonight_yellow]"
-set "status-left" "#[fg=$tokyonight_black,bg=$tokyonight_green,bold] #S #{prefix_highlight}#[fg=$tokyonight_green,bg=$tokyonight_black,nobold,nounderscore,noitalics]"
+set "status-right" "#[fg=$tokyonight_white,bg=$tokyonight_black,nounderscore,noitalics]${time_format}  ${date_format} #[fg=$tokyonight_visual_grey,bg=$tokyonight_black]#[fg=$tokyonight_visual_grey,bg=$tokyonight_visual_grey]#[fg=$tokyonight_white, bg=$tokyonight_visual_grey]${status_widgets} #[fg=$tokyonight_blue,bg=$tokyonight_visual_grey,nobold,nounderscore,noitalics]#[fg=$tokyonight_black,bg=$tokyonight_blue,bold] #h #[fg=$tokyonight_yellow, bg=$tokyonight_blue]#[fg=$tokyonight_red,bg=$tokyonight_yellow]"
+set "status-left" "#[fg=$tokyonight_black,bg=$tokyonight_red,bold] #S #{prefix_highlight}#[fg=$tokyonight_red,bg=$tokyonight_black,nobold,nounderscore,noitalics]"
 
 set "window-status-format" "#[fg=$tokyonight_black,bg=$tokyonight_black,nobold,nounderscore,noitalics]#[fg=$tokyonight_white,bg=$tokyonight_black] #I  #W #[fg=$tokyonight_black,bg=$tokyonight_black,nobold,nounderscore,noitalics]"
 set "window-status-current-format" "#[fg=$tokyonight_black,bg=$tokyonight_visual_grey,nobold,nounderscore,noitalics]#[fg=$tokyonight_white,bg=$tokyonight_visual_grey,nobold] #I  #W #[fg=$tokyonight_visual_grey,bg=$tokyonight_black,nobold,nounderscore,noitalics]"
